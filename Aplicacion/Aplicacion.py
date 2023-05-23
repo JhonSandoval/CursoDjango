@@ -7,7 +7,7 @@ df = pd.read_excel("C:\MOCA1105A1.xlsx")
 #Limpia carectes vacio
 df = df.dropna()
 #convierte el archivo a txt
-df.to_csv("Control_Acuerdo_A_06COBY_11052023.txt", sep='\t', index=False)
+df.to_csv("Control_Acuerdo_A_06COBY_11052023-prueba.txt", sep='\t', index=False)
 
 #combina todo en una funciona de salida
 
